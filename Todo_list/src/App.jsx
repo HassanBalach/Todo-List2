@@ -22,7 +22,7 @@ function App() {
       {addTask.map((listItem, index) => {
         return(
           
-          <List key={index} index={index} listItem={listItem} deleteItem={deleteItem} />
+          <List keyValue={index} index={index} listItem={listItem} deleteItem={deleteItem} />
         )
         
       })}
